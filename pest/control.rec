@@ -1,0 +1,30 @@
+             pestpp-ies - a GLM iterative Ensemble Smoother
+                      for PEST(++) datasets 
+
+                 by the PEST++ development team
+
+
+
+
+
+version: 5.2.21
+binary compiled on Jul 14 2025 at 08:40:08
+
+using control file: "control.pst"
+in directory: "C:\Users\00105295\Projects\loop_to_flopy_PEST\small_example_pest\pest"
+on host: "DEP72289"
+started at 09/02/25 21:44:25
+
+...reading external file 'control.pargp_data.csv'
+...header line: PARGPNME,INCTYP,DERINC,DERINCLB,FORCEN,DERINCMUL,DERMTHD,SPLITTHRESH,SPLITRELDIFF,SPLITACTION
+...read 4 lines from external file
+...reading external file 'control.par_data.csv'
+...header line: TYPE,ID,PARNME,PARVAL1,PARLBND,PARUBND,PARTRANS,PARCHGLIM,PARGP,SCALE,OFFSET,DERCOM
+...read 12 lines from external file
+...reading external file 'control.obs_data.csv'
+...header line: ID,X,Y,Z,OBSVAL,GEOMETRY,ICPL,GROUND,MODEL_BOTTOM,Z-BOT,CELL_DISV,"(LAY,ICPL)",LAY,OBSCELL_XY,OBSCELL_Z,OBS_ZPILLAR,OBSNME,OBGNME,WEIGHT
+Error processing control file: control.pst
+
+External file 'control.obs_data.csv' error: wrong number of tokens on line 1 of file 'control.obs_data.csv'.  Expecting 20, found 21
+
+
